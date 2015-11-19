@@ -1,0 +1,17 @@
+{
+"nodes":[
+{ "Text":"Ken", "key" : "48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "Image" : "images/video.ico", "ItemType" : "32", "position" : "300 200"},
+{ "Text":"Due to water quality decline", "key" : "551e944c-f872-45c2-bbcc-c25bc0e84af1", "Image" : "images/node.ico", "ItemType" : "16", "position" : "400 100"},
+{ "Text":"Community", "key" : "d30433ff-dc85-47a3-accc-c25bd3f659c9", "Image" : "images/node.ico", "ItemType" : "16", "position" : "400 300"},
+{ "Text":"Economy", "key" : "a91baec6-61dd-45c8-9acc-cc999606592b", "Image" : "images/node.ico", "ItemType" : "16", "position" : "200 100"},
+{ "Text":"Balance", "key" : "6f0b4e8a-e228-4209-bdcc-c25be443b6b7", "Image" : "images/node.ico", "ItemType" : "16", "position" : "200 300"},
+{ "Text":"Noisy dogs and other field recording challenges", "key" : "c38cb9d5-66c5-49e6-accc-e508e20625c0", "Image" : "images/memo.ico", "ItemType" : "3", "position" : "500 200"}
+  ],
+"links":[
+{ "from":"551e944c-f872-45c2-bbcc-c25bc0e84af1", "to":"48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "association":"Codes" },
+{ "from":"d30433ff-dc85-47a3-accc-c25bd3f659c9", "to":"48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "association":"Codes"  },
+{ "from":"a91baec6-61dd-45c8-9acc-cc999606592b", "to":"48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "association":"Codes"  },
+{ "from":"6f0b4e8a-e228-4209-bdcc-c25be443b6b7", "to":"48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "association":"Codes"  },
+{ "from":"48a4a549-aba5-4ab2-b5cc-cb4368b001e6", "to":"c38cb9d5-66c5-49e6-accc-e508e20625c0", "association":"Memo Link"  }
+  ]
+}
